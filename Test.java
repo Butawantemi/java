@@ -1,3 +1,10 @@
+/*
+ * This is a simple program that prints out the name and age of aperson
+ * Author: Japhet
+ * Date: 6th November 2024.
+ */
+
+
 public class Test {
     public static void main(String[] args) {
         String name = "Japhet";

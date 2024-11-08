@@ -1,3 +1,7 @@
+/*
+ * This program demonstrates the use of static variables in Java.
+ */
+
 class Student {
     public static int rollno;
     public static String name = "Prisca";

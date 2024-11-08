@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/* import java.util.Scanner;
 
 class Solution {
 	
@@ -13,4 +13,19 @@ class Solution {
 		System.out.println("The name of the person is" + " " + name + " " + "and the age is " + age + ".");
 		
 	}
+} */
+
+import java.lang.reflect.Array;
+
+public class Solution{
+    public static void main(String args[])
+
+
+    public static void swapNumber(int []a, int []b) {
+        // Write your code here.
+       int temp = a[0];
+         a[0] = b[0];
+         b[0]= temp;
+         System.out.println(a[0] + b[0]);
+    }
 }

@@ -15,8 +15,12 @@ public class Test {
         String firstName = "Japhet";
         String lastName = "Paul";
         int age = 22;
+        
 
         System.out.println("Hello, my name is  " + firstName + " " + lastName + " and I am  " + age + " years old.");
-        System.out.printf(``"Hello, my name is %s %s", firstName lastName``);
+        //System.out.printf(``"Hello, my name is %s %s", firstName, lastName``);
+        System.out.print(firstName);
+        System.out.print(lastName);
+
     }
 }

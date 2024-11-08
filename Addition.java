@@ -1,9 +1,6 @@
 /*
 Declaring function Addition() to sum two numbers and print the result.
-
 */
-
-
 
 public class Addition {
     public void add() {

@@ -1,5 +1,6 @@
 /*
-Declaring function Addition() to sum two numbers and print the result.
+* Declaring function Addition() to sum two numbers and print the result.
+* Local variables a and b.
 */
 
 public class Addition {

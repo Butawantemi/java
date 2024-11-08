@@ -4,6 +4,8 @@ public class VariableScope {
 
 public class VariableScopeDemo {
     public static void main(String[] args[]) {
-        
+        VariableScope obj = new VariableScope();
+        obj.x = 10;
+        System.out.println(obj.x);
     }
 }

@@ -1,3 +1,11 @@
+/*
+ * This program use the Scanner class to take input from the user.
+ * @firstName: The first name of the user.
+ * @lastName: The last name of the user.
+ * @fullName: The full name of the user as output.
+ */
+
+
 import java.util.Scanner;
 
 public class TakeInputFromUser {

@@ -1,7 +1,7 @@
 
-
-
-
+/*
+ * This program demonstrates how to create instances variables and objects in Java.
+ */
 
 class Student {
     String name;

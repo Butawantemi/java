@@ -5,7 +5,6 @@
  * @fullName: The full name of the user as output.
  */
 
-
 import java.util.Scanner;
 
 public class TakeInputFromUser {

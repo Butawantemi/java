@@ -10,7 +10,7 @@ public class TakeInputFromUser {
       System.out.println("Enter your last name: ");
       String lastName = sc.nextLine();
 
-      String fullName = firstName + "\t" + lastName;
+      String fullName = firstName + " " + lastName;
       System.out.println("Hello, my name is " + fullName);
     }
 }

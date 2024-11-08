@@ -4,6 +4,7 @@
  * printf() method is used to format the output.
  * The %s(string) and %d(integer) are format specifiers that are used to format the output.
  * print() method is used to print the output without a newline at the end.
+ * Use the Java compiler to compile the program: javac Test.java
  * Author: Japhet
  * Date: 6th November 2024.
  */

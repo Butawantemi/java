@@ -30,6 +30,6 @@ public class Solution{
        int temp = a[0];
          a[0] = b[0];
          b[0]= temp;
-         System.out.println(a[0] + b[0]);
+         System.out.println(a[0] + " " + b[0]);
     }
 }

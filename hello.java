@@ -1,5 +1,5 @@
 /*
- * This is a simple Java program. Call this file "hello.java".
+ * This is a simple Java program. Call this file "hello.java"
  */
 
 public class hello {

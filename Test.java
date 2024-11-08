@@ -20,7 +20,7 @@ public class Test {
         System.out.println("Hello, my name is  " + firstName + " " + lastName + " and I am  " + age + " years old.");
         //System.out.printf(``"Hello, my name is %s %s", firstName, lastName``);
         System.out.print(firstName);
-        System.out.print( lastName);
+        System.out.print("\t" + lastName);
 
     }
 }

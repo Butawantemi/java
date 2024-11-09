@@ -36,8 +36,18 @@ public class Solution{
     }
 } */
 
+/*
+ * This use to calculate simple interest by take user input
+ * @principalAmount
+ * @rateInterest
+ * @time
+ * using Scanner
+ */
+
+
 import java.util.* ;
 import java.io.*; 
+
 class Solution {
 	
 	public static void main(String args[]) {

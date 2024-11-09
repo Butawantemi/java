@@ -15,12 +15,14 @@ class Solution {
 	}
 } */
 
-import java.lang.reflect.Array;
+/* import java.lang.reflect.Array;
+import java.util.Scanner;
 
 public class Solution{
     public static void main(String args[]) {
-        int []a = {1};
-        int []b = {2};
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
         swapNumber(a, b);
     }
 
@@ -32,4 +34,22 @@ public class Solution{
          b[0]= temp;
          System.out.println(a[0] + " " + b[0]);
     }
+} */
+
+import java.util.* ;
+import java.io.*; 
+class Solution {
+	
+	public static void main(String args[]) {
+		
+		// Write code here
+		Scanner sc = new Scanner(System.in);
+
+		int principalAmount = sc.nextInt();
+		float rateInterest = sc.nextFloat();
+		int time = sc.nextInt();
+
+		int simpleInterest = (int) Math.floor(principalAmount * rateInterest * time)/ 100;
+	    System.out.println(simpleInterest);
+	}
 }

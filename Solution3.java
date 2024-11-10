@@ -8,6 +8,7 @@
 
  import java.util.* ;
  import java.io.*; 
+
  class Solution {
      
      public static void main(String args[]) {
@@ -21,6 +22,8 @@
          float hra = 0.2f * basicSalary;
          float da = 0.5f * basicSalary;
          float pf = 0.11f * basicSalary;
+
+         grade = Character.toUpperCase(grade);
         
          int allow;
          if (grade == 'A') {

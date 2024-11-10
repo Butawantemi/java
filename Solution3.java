@@ -14,26 +14,25 @@
          
          // Write code here
          Scanner sc = new Scanner(System.in);
+         sc.close();
  
          int basicSalary = sc.nextInt();
          char grade = sc.next().charAt(0);
          float hra = 0.2f * basicSalary;
          float da = 0.5f * basicSalary;
          float pf = 0.11f * basicSalary;
- 
+        
+         int allow;
          if (grade == 'A') {
-             int allow = 1700;
-             int totalSalary = (int) Math.floor(basicSalary + hra + da + allow - pf);
-             System.out.println(totalSalary);
+            allow = 1700;
          } else if (grade == 'B') {
-             int allow = 1500;
-             int totalSalary = (int) Math.floor(basicSalary + hra + da + allow - pf);
-             System.out.println(totalSalary);
+            allow = 1500;;
          } else {
-             int allow = 1300;
-             int totalSalary = (int) Math.floor(basicSalary + hra + da + allow - pf);
-             System.out.println(totalSalary);
+            allow = 1300;
          }
+
+         int totalSalary = (int) Math.floor(basicSalary + hra + da + allow - pf);
+         System.out.println(totalSalary);
          
      }
  }

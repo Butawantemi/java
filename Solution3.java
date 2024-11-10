@@ -13,7 +13,7 @@ public class Solution3 {
         float pf = 0.11f;
 
         if (grade == 'A') {
-            int totalSalary =  (int) Math.floor (basicSalary + hra + 1700 + da - pf);
+            int totalSalary =  (int) Math.floor (basicSalary + hra + da  + 1700 - pf);
             System.out.println(totalSalary);
         }
     }

@@ -1,6 +1,6 @@
 /*
  * Control Statement
- * Selection Statement, if statement.
+ * Selection Statement, if-else statement.
  */
 
 public class JavaIfStatement {

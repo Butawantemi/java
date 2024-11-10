@@ -9,6 +9,8 @@ public class JavaIfStatement {
 
     if(a < 20) {
         System.out.println("If block is executed");
+    } else {
+        System.out.println("Else block is executed");
     }
     }
     

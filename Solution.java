@@ -45,7 +45,7 @@ public class Solution{
  */
 
 
-import java.util.* ;
+/* import java.util.* ;
 import java.io.*; 
 
 class Solution {
@@ -62,4 +62,13 @@ class Solution {
 		int simpleInterest = (int) Math.floor(principalAmount * rateInterest * time)/ 100;
 	    System.out.println(simpleInterest);
 	}
+} */
+
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        System.out.println();
+    }
 }

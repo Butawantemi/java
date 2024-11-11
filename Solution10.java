@@ -1,3 +1,8 @@
+/*
+ *  Problem statement:
+ * Write a program to count the number of 1's in the binary representation of an integer.
+ */
+
 import java.util.* ;
 import java.io.*; 
 public class Solution10 {

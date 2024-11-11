@@ -8,15 +8,24 @@ import java.io.*;
 public class Solution10 {
 	public static int countSetBits(int n) {
 		// Write your code here.
-		int binaryNamber = 0;
+		int binaryNumber = 0;
 		int i = 1;
 		while (n != 0) {
 		  int mod = n % 2;
 		  n /= 2;
-		  binaryNamber += mod * i;
+		  binaryNumber += mod * i;
 		  i *= 10;
 		}
-		return binaryNamber;
+		int count = 0;
+		while (binaryNumber != 0) {
+			int mod = binaryNumber % 10;
+			binaryNumber /= 10;
+			if (mod == 1) {
+				count++;
+			}
+			
+		}
+		return count;
 	}
 
 	public static void main(String[] args){

@@ -17,7 +17,7 @@ class Solution6 {
 
         int N = sc.nextInt();
         int evenSum = 0;
-        int otherSum = 0;
+        int oddSum = 0;
         
         while (N > 0) {
             int mod = N % 10;
@@ -27,13 +27,11 @@ class Solution6 {
                     evenSum += mod;
                     
                 } else {
-                    otherSum += mod;
+                    oddSum += mod;
                     
                 }
                 
         }
-        System.out.println(evenSum);
-        System.out.println(otherSum);
-		
+        System.out.println(evenSum + " " + oddSum);
 	}
 }

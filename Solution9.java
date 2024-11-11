@@ -21,7 +21,7 @@ public class Solution9 {
         int n = sc.nextInt();
 
         List< Integer > divisors = printDivisors(n);
-        System.out.println(List.of(divisors));
+        System.out.println(divisors);
         
     }
 }

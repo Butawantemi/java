@@ -16,8 +16,12 @@ class Solution6 {
         Scanner sc = new Scanner(System.in);
 
         int N = sc.nextInt();
-
         
+        while (N > 0) {
+            int mod = N % 10;
+            System.out.println(mod);
+            N /= 10;
+        }
 		
 	}
 }

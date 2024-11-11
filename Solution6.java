@@ -16,12 +16,24 @@ class Solution6 {
         Scanner sc = new Scanner(System.in);
 
         int N = sc.nextInt();
+        int evenSum = 0;
+        int otherSum = 0;
         
         while (N > 0) {
             int mod = N % 10;
-            System.out.println(mod);
             N /= 10;
+            
+            if (mod % 2 == 0) {
+                    evenSum += mod;
+                    
+                } else {
+                    otherSum += mod;
+                    
+                }
+                
         }
+        System.out.println(evenSum);
+        System.out.println(otherSum);
 		
 	}
 }

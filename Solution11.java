@@ -14,9 +14,10 @@ class CountPrime {
         }
         return count;
     }
+
 }
 
-class Solution {
+class Solution11 {
 	public static void main(String args[]) {
 		
 		CountPrime obj = new CountPrime();

@@ -14,6 +14,17 @@ class Solution5 {
 	public static void main(String args[]) {
 		
 		// Write code here
+        Scanner sc = new Scanner(System.in);
+
+        int startFahrenheit = sc.nextInt();
+        int endFahrenheit = sc.nextInt();
+        int stepSize = sc.nextInt();
+
+        for (int currentFahrenheit = startFahrenheit; currentFahrenheit <= endFahrenheit; currentFahrenheit += stepSize) {
+            
+        }
+
+
 		
 	}
 }

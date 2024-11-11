@@ -21,7 +21,11 @@ class Solution5 {
         int stepSize = sc.nextInt();
 
         for (int currentFahrenheit = startFahrenheit; currentFahrenheit <= endFahrenheit; currentFahrenheit += stepSize) {
+            float celsius = (5.0f / 9) * (currentFahrenheit - 32);
             
+            int result = (celsius >= 0) ? (int) Math.floor(celsius) : (int) Math.ceil(celsius);
+
+            System.out.println(currentFahrenheit + "\t" + result);
         }
 
 

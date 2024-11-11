@@ -1,3 +1,9 @@
+/*
+ * Given an integer ‘N’, your task is to write a program that returns 
+ * all the divisors of ‘N’ in ascending order.
+ */
+
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

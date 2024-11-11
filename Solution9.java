@@ -19,9 +19,7 @@ public class Solution9 {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
-
-        List< Integer > divisors = printDivisors(n);
-        System.out.println(divisors);
+        System.out.println(printDivisors(n));
         
     }
 }

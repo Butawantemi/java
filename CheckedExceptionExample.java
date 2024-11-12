@@ -1,3 +1,8 @@
+/*
+ * Checked Exception Example
+ */
+
+
 import java.io.*;
 
 public class CheckedExceptionExample {

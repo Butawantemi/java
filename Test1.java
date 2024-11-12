@@ -9,5 +9,13 @@ public class Test1 {
         System.gc();
 
         t2 = null;
+
+        Runtime.getRuntime().gc();
+    }
+
+    @Override
+    protected void finalized() throws Throwable {
+         System.out.println("Garbage collection");
+         
     }
 }

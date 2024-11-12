@@ -5,7 +5,7 @@ public class CheckedExceptionExample {
         FileReader fileReader = null;
 
         try {
-            fileReader = new FileReader("odeNinjas.txt");
+            fileReader = new FileReader("CodeNinjas.txt");
         } catch (FileNotFoundException e1) {
             System.out.println("File not found in current directory");
         }

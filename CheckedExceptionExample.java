@@ -15,8 +15,8 @@ public class CheckedExceptionExample {
             while ((c = fileReader.read()) != -1) {
                 System.out.println((char) c);
             }
-        } catch (Exception e) {
-
+        } catch (IOException e) {
+               e.printStackTrace();
         }
     }
 }

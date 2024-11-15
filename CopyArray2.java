@@ -1,5 +1,5 @@
 /*
- * Copy an array is loop costruct.
+ * Copy an array using loop costruct.
  */
 
 import java.util.*;

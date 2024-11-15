@@ -1,5 +1,6 @@
 /*
  * Declare and Initializing MultidimensionArray in Java.
+ * Loop through an array using for and for each.
  */
 
 
@@ -12,10 +13,10 @@ public class MultidimensionalArray {
             {5,6,7}
         };
 
-        for (int i = 0; i < arr.length; i++) {
+        /* for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {
                 System.err.println(arr[i][j]);
             }
-        }
+        } */
     }
 }

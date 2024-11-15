@@ -1,3 +1,7 @@
+/*
+ * Copy an array using arraycopy method.
+ */
+
 import java.util.Arrays;
 
 public class CopyArray3 {

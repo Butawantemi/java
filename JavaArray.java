@@ -8,7 +8,8 @@ public class JavaArray {
         int sum = 0;
         for (int number : arr) {
             sum += number;
-            System.out.println(sum);
+            
         }
+        System.out.println(sum);
     }
 }

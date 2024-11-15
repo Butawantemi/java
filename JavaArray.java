@@ -1,3 +1,8 @@
+/*
+ * Initilizing and Assign Array in Java.
+ * Looop through array and find sum of item in array.
+ */
+
 public class JavaArray {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};

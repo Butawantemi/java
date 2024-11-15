@@ -18,5 +18,11 @@ public class MultidimensionalArray {
                 System.err.println(arr[i][j]);
             }
         } */
+
+        for (int[] innerArray : arr) {
+            for (int data : innerArray) {
+                System.out.println(data);
+            }
+        }
     }
 }

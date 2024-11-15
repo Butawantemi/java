@@ -5,7 +5,7 @@ public class CopyArray {
         numbers[0] = 3;
         
         for (int num: positiveNumbers) {
-            System.out.println(num + ",");
+            System.out.print(num + ",");
         }
 
     }

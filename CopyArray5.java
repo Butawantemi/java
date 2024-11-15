@@ -1,3 +1,7 @@
+/*
+ * Copy multidimension array using Loop for.
+ */
+
 import java.util.Arrays;
 
 public class CopyArray5 {

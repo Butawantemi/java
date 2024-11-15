@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class CopyArray5 {
     public static void main(String[] args) {
         int[][] source = {
@@ -15,5 +17,7 @@ public class CopyArray5 {
                 destination[i][j] = source[i][j];
             }
         }
+
+        System.out.println(Arrays.toString(destination));
     }
 }

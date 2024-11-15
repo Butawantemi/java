@@ -1,5 +1,5 @@
 /*
- * Initilizing and Assign Array in Java.
+ * Declare and Initilizing Array in Java.
  * Looop through array and find sum of item in array.
  */
 

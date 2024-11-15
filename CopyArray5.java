@@ -18,6 +18,6 @@ public class CopyArray5 {
             }
         }
 
-        System.out.println(Arrays.toString(destination));
+        System.out.println(Arrays.deepToString(destination));
     }
 }

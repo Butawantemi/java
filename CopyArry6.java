@@ -1,3 +1,7 @@
+/*
+ * Copy multidimension array using arraycopy() method.
+ */
+
 import java.util.Arrays;
 
 public class CopyArry6 {
